@@ -163,8 +163,9 @@
         android:id="@+id/top_layer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone">
+        android:visibility="visible">
         <ImageView
+            android:id="@+id/big_image"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/card_0_0">
