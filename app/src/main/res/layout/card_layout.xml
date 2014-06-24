@@ -97,6 +97,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:gravity="center"
+                            android:layout_marginBottom="5dp"
                             android:textColor="#ff695553"
                             android:text="loremipsum"
                             android:textSize="20sp" />
@@ -107,6 +108,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:gravity="center"
+                            android:layout_marginBottom="25dp"
                             android:textColor="#ff695553"
                             android:text="loremipsum"
                             android:textSize="20sp" />
@@ -117,9 +119,10 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:gravity="center"
+                            android:layout_marginBottom="10dp"
                             android:textColor="#ff532d93"
                             android:text="Click to watch the video"
-                            android:textSize="20sp" />
+                            android:textSize="15sp" />
                         <TextView
                             android:id="@+id/text_pick_card"
                             android:layout_width="match_parent"
@@ -128,7 +131,7 @@
                             android:gravity="center"
                             android:textColor="#ffffffff"
                             android:text="Pick another card"
-                            android:textSize="20sp" />
+                            android:textSize="15sp" />
 
                         </LinearLayout>
 
