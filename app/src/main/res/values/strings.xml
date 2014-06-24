@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RezanKirazTarot v.1</string>
+
+    <!--video and call services-->
+    <string name="video_title">Watch the video</string>
+    <string name="video_purchase">Click yes to purchase and watch the video for this card</string>
+    <string name="video_watch">You have alredy purchased this video. Click yes to watch it</string>
+    <string name="call_title">Call Rezan</string>
+    <string name="call_message">Click yes to purchase and call Rezan</string>
+    <string name="downloading">Downloading...</string>
+
+    <string name="no_internet">No internet connection!</string>
+
+
+
+</resources>

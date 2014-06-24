@@ -1,0 +1,1410 @@
+{
+  "cards": {
+    "0": {
+      "cardName": "KUPALARIN UŞAĞI",
+      "cardImageName": "0_0",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Mutluluk verecek kısmet, sürpriz bir haberle birlikte gelecek."
+        },
+        "1": {
+          "isFlipped": true,
+          "cardComment": "İyi gitmeyen bir ilişkin olabilir."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Sanatkâr ruhlu, hassas ve alıngan olabilirsin. Elinde, koz olarak kullandıkların ne?"
+        }
+      }
+    },
+    "1": {
+      "cardName": "KUPALARIN ASI",
+      "cardImageName": "0_1",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Aşkın başlangıcı ya da yeni bir arkadaşlık. Tatmine ulaşma..."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Yeni bir işe başlayacaksan, tam zamanı. İşin, sanatsal olma ihtimali yüksek."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Çok güzel bir devredesin. Duygusal açıdan tatmin olacağın bir dönem…"
+        }
+      }
+    },
+    "2": {
+      "cardName": "KUPALARIN İKİLİSİ",
+      "cardImageName": "0_2",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Karşındaki kişi ile tam bir ahenk içindesin. Hangi durum için bunu yaşayacaksın?"
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Yalnızsan eğer, bu yalnızlığın bitecek. Acaba doğru insan hangisi?"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Hayatında, rakip gibi gördüğün ya da zıtlaştığın kişiyle uyum söz konusu..."
+        }
+      }
+    },
+    "3": {
+      "cardName": "KUPALARIN ÜÇLÜSÜ",
+      "cardImageName": "0_3",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Nişan, düğün, kutlama, eğlence ortamında yeni dostluklar kurmak."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Sıkıntılı bir bekleyişte olabilirsin. Sonucun ne olacağını bilmiyorsun."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "İyi gitmeyen bir ilişkin olabilir. Evlilik ya da işte değişim olabilir."
+        }
+      }
+    },
+    "4": {
+      "cardName": "KUPALARIN DÖRTLÜSÜ",
+      "cardImageName": "0_4",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Bir doyuma ulaşmış olabilirsin. Bu sana, bir duraksama dönemi getirmiş..."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "İçine sindiremediğin bir hal var. Bir teklif almışsın."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Senin için sanki en güzel zamanlar bitti. Nedir seni bu hale getiren?"
+        }
+      }
+    },
+    "5": {
+      "cardName": "KUPALARIN BEŞLİSİ",
+      "cardImageName": "0_5",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Merhaba hüzün. Kendini, yalnız ve soyutlanmış hissedebilirsin."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Sana üzüntü veren bir ilişkin var. İyi bir tahlil yapalım..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Bir iş müracaatı ya da sınav olumsuz neticelenmişse..."
+        }
+      }
+    },
+    "6": {
+      "cardName": "KUPALARIN ALTILISI",
+      "cardImageName": "0_6",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Güzel bir karşılaşma seni bekliyor. Geçmişe doğru uzanalım..."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Tam bir nostalji kartı! Geçmişten gelen haberlerin, dünyanı etkilemesi..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Geçmişe çok takılı kalmamalısın. Yeni bir şey başlayacak."
+        }
+      }
+    },
+    "7": {
+      "cardName": "KUPALARIN YEDİLİSİ",
+      "cardImageName": "0_7",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Aklın son derece karışmış. Ne istediğini bilmiyorsun."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "İhtiras ve gizlilik dolu bir aşk yaşanıyor olabilir."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Bir ilişkide, aldanma ya da kandırılma olabilir. Hayal kırıklığına uğrayabilirsin."
+        }
+      }
+    },
+    "8": {
+      "cardName": "KUPALARIN SEKİZLİSİ",
+      "cardImageName": "0_8",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Bir durum değişikliği söz konusu olabilir. Önünün tıkalı olduğunu düşünüyorsun."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Değişim zamanı. Somut ya da soyut, hiç fark etmez..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Bir ayrılık söz konusu olabilir. Hayal kırıklığı var. Durup düşünmelisin..."
+        }
+      }
+    },
+    "9": {
+      "cardName": "KUPALARIN DOKUZLUSU",
+      "cardImageName": "0_9",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Artık rahat olmalısın. Bir düzen kuruldu. Demek ki her şey yolunda..."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Her türlü şeyi elde ettin ya da hedefine ulaştın. Biraz şımarıklık mı var?"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Keyif ve huzur anındasın. Manevi tatminsizlik yaşaman mümkün..."
+        }
+      }
+    },
+    "10": {
+      "cardName": "KUPALARIN ONLUSU",
+      "cardImageName": "0_10",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Son derece güzel bir kart seçtin! En güzel hale ulaşma durumu..."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Özellikle iş hayatını yöneten, burcun etkisinde olabilirsin. Grup çalışmalarında başarı var."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Duygu dünyanı tatmin eden, özellikle aile içinde çok güzel gelişmeler var."
+        }
+      }
+    },
+    "11": {
+      "cardName": "KUPALARIN ŞOVALYESİ",
+      "cardImageName": "0_11",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Karar vermekte zorlanabileceğin bir dönem olabilir. Ya da böyle birisiyle birlikte olabilirsin..."
+        },
+        "1": {
+          "isFlipped": true,
+          "cardComment": "Eğer bu kişi sen isen, normal şartlarda doğruyu ve yanlışı çok iyi ayırt edemeyen bir kişilikte olabilirsin..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Aşkla ilgili bir mesaj, telefon ya da haber var... Ya ilerisi?"
+        }
+      }
+    },
+    "12": {
+      "cardName": "KUPALARIN KRALİÇESİ",
+      "cardImageName": "0_12",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Ya Yengeç burcusun ya da hayatında bu özelliklere sahip biri var."
+        },
+        "1": {
+          "isFlipped": true,
+          "cardComment": "Boş hayaller ve fanteziler dünyasında dolaşma. Bu durumdan çıkman gerek."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Ahlaki değerleri sorgulama zamanı! Onaylanmayan bir ilişki..."
+        }
+      }
+    },
+    "13": {
+      "cardName": "KUPALARIN KRALI",
+      "cardImageName": "0_13",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Karşındaki kişi Akrep burcu ya da kumral biri olabilir. Ya da bu kişi sen olabilirsin."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Gizemli bir yapın var. Cazip görünse de, ilerde sorun olabilir."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "aşarı elde etmek için gizli saklı oyunlar olabilir. Dürüst olunmalı..."
+        }
+      }
+    },
+    "14": {
+      "cardName": "TILSIMLARIN UŞAĞI",
+      "cardImageName": "1_0",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Güzel haberler var. Üstelik para ile ilgili haber bunlar."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Maddiyata önem veren ama duygularını gizleyen biri… Bu, sen misin?"
+        },
+        "2": {
+          "isFlipped": true,
+          "cardComment": "Maddi güç olabilir. Bunu kullanma şeklin, maneviyatta çok önemli."
+        }
+      }
+    },
+    "15": {
+      "cardName": "TILSIMLARIN ASI",
+      "cardImageName": "1_1",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Maddiyat, güzellik ve zenginlik sana göz kırpıyor."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Güzel bir kart bravo! Neşe, huzur, keyif ve daha neler neler…"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Şimdiden kutluyorum. Özel bir kart, başarı seninle olacak."
+        }
+      }
+    },
+    "16": {
+      "cardName": "TILSIMLARIN İKİLİSİ",
+      "cardImageName": "1_2",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Bir elde iki karpuz zor tutulur. Ateşle oynamaktan kaçınmalısın."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Tıkanmamak için olayları yüzeysel algılamamalısın. Daha derin düşünmelisin."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Karar veremediğin bir ilişkin olabilir. Ama kararını verdirecek, sürpriz bir durum var."
+        }
+      }
+    },
+    "17": {
+      "cardName": "TILSIMLARIN ÜÇLÜSÜ",
+      "cardImageName": "1_3",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Özel özel özel! Hayatının önünde çok özel günler var."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Hayatına güzellikler giriyor. Keyifli olabileceğin zamanlar, tadını çıkar."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Müjdemi isterim! Kartın bir haber veriyor. Maddi iş boyutunda bir gelişme."
+        }
+      }
+    },
+    "18": {
+      "cardName": "TILSIMLARIN DÖRTLÜSÜ",
+      "cardImageName": "1_4",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "İlişkide olduğun birinin geçmişteki tecrübesi, nikâhtan korkmasına sebep olabilir."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Abartıdan kaçınmalısın. Kaybetmemek için tasarruf yapmalısın."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Para, hem her şey hem de hiçbir şeydir. Fazla tutucu olamamalısın."
+        }
+      }
+    },
+    "19": {
+      "cardName": "TILSIMLARIN BEŞLİSİ",
+      "cardImageName": "1_5",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Kendini, biraz yoksul ve üzüntü içinde hissedebilirsin. Mevsim değişecek."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Biraz hüzün, biraz kayıp. Yuvasız âşıklar gibisiniz."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Hüzünlenmemek için dikkatli olmalısın. İş ve ticarete dikkat edin."
+        }
+      }
+    },
+    "20": {
+      "cardName": "TILSIMLARIN ALTILISI",
+      "cardImageName": "1_6",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Maddi dünya senin için şu anda çok önemli. Sıkıntı varsa korkma."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Eşten ya da aileden gelen maddi bir gücün var. Bunu nasıl kullanacaksın?"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Çok keyifli bir kart seçtin. Maddi anlamda, el ele vereceğin biri var."
+        }
+      }
+    },
+    "21": {
+      "cardName": "TILSIMLARIN YEDİLİSİ",
+      "cardImageName": "1_7",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Hareket yok. Duraksamanın yaşandığı bir dönemle karşı karşıyasın."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Olumlu bir sonuç için sabır içinde beklemelisin."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Ne yapmak istiyorsan, önce planını yapmalısın. Keyif alman için bu şart."
+        }
+      }
+    },
+    "22": {
+      "cardName": "TILSIMLARIN SEKİZLİSİ",
+      "cardImageName": "1_8",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "İlişkine, usta biri gibi yaklaştın ve bir noktaya getirdin."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Sabırla ve özveriyle yaptığın çok şey var ama istediğin noktaya gelememiş olabilirsin."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Titiz bir şekilde çalışman gerekiyor. Hangi işe gireceksin ve hangi yönde eğitim almalısın."
+        }
+      }
+    },
+    "23": {
+      "cardName": "TILSIMLARIN DOKUZLUSU",
+      "cardImageName": "1_9",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Yalnız bir kadın olabilirsin ya da yalnızlığı tercih etmiş de olabilirsin. Bir kadınla karşı karşıya da olabilirsin."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Yeni bir işe başlıyor olabilirsin. Bu konuda başarın katlanabilir."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Genç biri isen ya da eğitim çağında isen, derslerinde başarı var. Akıllı yatırımlar var."
+        }
+      }
+    },
+    "24": {
+      "cardName": "TILSIMLARIN ONLUSU",
+      "cardImageName": "1_10",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Evlilik ve tamamlanma kartı. Mutluluk için parayı kullanma zamanı."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Biriken paralar, huzurlu işler için kullanılacak. Mutluluk var."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Geçmiş bir sayfa, artık kapanıyor. Hayatında yeni bir sayfa açılıyor."
+        }
+      }
+    },
+    "25": {
+      "cardName": "TILSIMLARIN ŞOVALYESİ",
+      "cardImageName": "1_11",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Böyle bir şövalye hayatına girebilir ya da bu, sen olabilirsin. Planlı adımlar atılacak."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "İş konusunda yaşanacaklara dikkat et. Güvenilir bir yapın var ama duraksamalar yaşanabilir."
+        },
+        "2": {
+          "isFlipped": true,
+          "cardComment": "Ters kart. İleri görüşlü olmayan, tembel ama halinden memnun biri..."
+        }
+      }
+    },
+    "26": {
+      "cardName": "TILSIMLARIN KRALİÇESİ",
+      "cardImageName": "1_12",
+      "cardDetails": {
+        "0": {
+          "isFlipped": true,
+          "cardComment": "Eğer sen buysan, tuttuğun yoldan hemen geri dönmelisin."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Oldukça güzel bir kart seçtin. Maddiyat ve maneviyat, avuçlarının içinde..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Güçlü ve olgun yaşlarda bir kadına işaret ediyor. Bu kadının, hayatındaki yeri ne olacak?"
+        }
+      }
+    },
+    "27": {
+      "cardName": "TILSIMLARIN KRALI",
+      "cardImageName": "1_13",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "40 yaş üstü ya da toprak grubundan bir olabilirsin. Gücün elinde. Doğru şekilde kazanılmış paranın sahibi olabilirsin."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Birliktelik sürdürebileceğin bir insanla tanışabilirsin. Ne mutlu sana."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Kral kim? Maddi dünyanın kralı… Elini nereye atsa altın olacak kişi kim?"
+        }
+      }
+    },
+    "28": {
+      "cardName": "KILIÇLARIN UŞAĞI",
+      "cardImageName": "2_0",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Genç, toy, tecrübesi olamayan ve her şeye çabuk tepki veren biri olabilirsin. Sevdiklerine karşı, ilgini eksik etme."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Planlı hareket etmeyi seviyorsun. Heyecanlı birisin."
+        },
+        "2": {
+          "isFlipped": true,
+          "cardComment": "İlişkini gözetleyen birisi var. Senin açığını yakalamak isteyen biri olabilir."
+        }
+      }
+    },
+    "29": {
+      "cardName": "KILIÇLARIN ASI",
+      "cardImageName": "2_1",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Durdurulamayacak bir hareket başlıyor. Engellere rağmen başarı var.
+Öyle güzel bir aşk yaşayabilirsin ki…"
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Bir yerden ayrılmak isteyebilirsin. Ama korkma, aşılacak; denge var."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Sağlık sorunu varsa, kaygıların olabilir. Endişe duyma… İşinden ayrılmak isteyebilirsin."
+        }
+      }
+    },
+    "30": {
+      "cardName": "KILIÇLARIN İKİLİSİ",
+      "cardImageName": "2_2",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Biraz duralım ve ilişkini gözden geçirelim. Ne olduğunu anlayamama hali..."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Bütçeni yapamıyorsan ve maddi zorluklar içindeysen, durumunu analiz etmen gerekiyor."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Karar arifesinde olabilirsin. İkilemlerin var. Kuşkulardan kurtul."
+        }
+      }
+    },
+    "31": {
+      "cardName": "KILIÇLARIN ÜÇLÜSÜ",
+      "cardImageName": "2_3",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Fırtınalı gökyüzünde, kalbi kırık birisi var. Kederli ve hüzünlü bir hal… Mantıklı olmalısın."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Bir ortaklık ya da proje üzerinde problemler başlamış. Tartışma olabilir."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Aile içi çatışmalar olabilir. Yıpranabilirsin, duygularına hâkim ol."
+        }
+      }
+    },
+    "32": {
+      "cardName": "KILIÇLARIN DÖRTLÜSÜ",
+      "cardImageName": "2_4",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "İlişkin seni yormuş. Biraz kendinle kalıp, tekrar enerjini toplamalısın."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Biraz durma zamanı. Sakin olmaya ihtiyacın var. Kendi gücüne tekrar kavuş."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Yoğun bir tempodan çıkmış olabilirsin. Tükenen gücünü tekrar toparlamak için geri çekilmelisin."
+        }
+      }
+    },
+    "33": {
+      "cardName": "KILIÇLARIN BEŞLİSİ",
+      "cardImageName": "2_5",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Mars kartı! Mücadele ve savaş kazanacağını zannederken, kayba uğramak."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Dikkatli olmalısın. Taş uzaktan gelmiyor. Özel şeylerin paylaşımına dikkat etmelisin."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Aklında ne varsa, maliyet hesabı yapman lazım. Kaybetmemelisin."
+        }
+      }
+    },
+    "34": {
+      "cardName": "KILIÇLARIN ALTILISI",
+      "cardImageName": "2_6",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Hararetli ilişkini devam ettirmek için mücadele veriyorsun. Karar vermişsin."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Eğitim ile ilgili bir durum için hizmet almak zorundasın. Gelişimin için bu çok önemli."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Birinin desteğine ve yardımına ihtiyacın var. Ve işte, o yardım geliyor."
+        }
+      }
+    },
+    "35": {
+      "cardName": "KILIÇLARIN YEDİLİSİ",
+      "cardImageName": "2_7",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "İlişkine dikkat et. Ya maddi ya da manevi anlamda ikiyüzlülük ve gizlilikle karşılaşabilirsin."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Bir işe giriyorsan dikkat et. Sahip olduğun değerleri, senden alabilirler."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "İçine sindiremediğin işlere hemen atılmamalısın. İmzalara dikkat et."
+        }
+      }
+    },
+    "36": {
+      "cardName": "KILIÇLARIN SEKİZLİSİ",
+      "cardImageName": "2_8",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Her şeyini bağlamışsın ve kuşatılmışsın. Bu halden kurtulman gerekiyor."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Sana kurulmuş bir tuzağın içine düşmüş olabilirsin. Ne yapacağını bilememe durumu..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Kendini, bir zorluğun içinde hissedebilirsin. Bu hal içinde sana yol gösterecek biri var."
+        }
+      }
+    },
+    "37": {
+      "cardName": "KILIÇLARIN DOKUZLUSU",
+      "cardImageName": "2_9",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Bir ilişkiyle ilgili kendini suçluyor olabilirsin. Gereksiz yere yıpranmaman lazım."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Saklanan ve gizlenen olaylar, gün ışığına çıkabilir. Kaygı ve korkular, uykunu kaçırabilir."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Kim seni kırdı? Niye bu kadar üzülüp, harap oluyorsun?"
+        }
+      }
+    },
+    "38": {
+      "cardName": "KILIÇLARIN ONLUSU",
+      "cardImageName": "2_10",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Dost sandıklarından darbe görebilirsin. Rakibini arkana hiç alma."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "İşle ilgili kayıpların olabilir. Kendini korumalı ve tedbirlerini almalısın."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "En negatif kartlardan biri. Ama birden bire, her şey olumlu olabilir."
+        }
+      }
+    },
+    "39": {
+      "cardName": "KILIÇLARIN ŞÖVALYESİ",
+      "cardImageName": "2_11",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Cesur ve kararlı birisin. Hangi durumda olursa olsun, gelen haberlere dikkat et."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Heyecanlısın ya da böyle birisiyle tanışabilirsin. Fazla atak olmak, dikkat gerektirir."
+        },
+        "2": {
+          "isFlipped": true,
+          "cardComment": "Biraz patavatsız biri olabilirsin ya da böyle biri ile birlikte olabilirsin."
+        }
+      }
+    },
+    "40": {
+      "cardName": "KILIÇLARIN KRALİÇESİ",
+      "cardImageName": "2_12",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Sözünü dinleten, güçlü bir kadın var karşında. Bir erkeksen, karşındaki böyle bir kadın..."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Bir karar aldıysan, olası sonuçlarının ne olacağını zaten biliyorsun."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Kendine olan özgüvenin çok fazla.  Bu özgüven, seni yalnızlığa götürmemeli."
+        }
+      }
+    },
+    "41": {
+      "cardName": "KILIÇLARIN KRALI",
+      "cardImageName": "2_13",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": ">Esmer, mantığı çok iyi çalışan biriyle konuşman gerekebilir."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Hukukla ilgili bir mesele olabilir. Pratik çözümler lazım."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Olgun ya da olgun düşünceli biriyle tanışabilir ve âşık olabilirsin. Kova burcu birisi olabilir."
+        }
+      }
+    },
+    "42": {
+      "cardName": "ASALARIN UŞAĞI",
+      "cardImageName": "3_0",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Toy görünümlü bir erkek, bir kadın ya da genç biri olabilirsin. Senin için gezme zamanı..."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Uzakları keşfetmek ya da buralardan gitmek isteyebilirsin. Ama ne için?"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Hareketli ve girişken yapın, sana eğitim ve iş hayatında neler vaat ediyor?"
+        }
+      }
+    },
+    "43": {
+      "cardName": "ASALARIN ASI",
+      "cardImageName": "3_1",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Umudun doruklarda. Arzu ettiğin şeylerin başlaması için kartın yorumuna kulak ver."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Girişimlerinin sonucunu almak üzeresin. Artık başarı zamanı geldi."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Heyecan duyman gereken çok şey var ama özellikle yorumuma kulak ver."
+        }
+      }
+    },
+    "44": {
+      "cardName": "ASALARIN İKİLİSİ",
+      "cardImageName": "3_2",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Herkesi etkileyebilirsin. Bunun gücünden faydalan. Acaba kartın ne diyor?"
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Problemlerini halletmen için çaba göstermen önemli."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Seyahatler ve türlü türlü maceralar seni bekliyor."
+        }
+      }
+    },
+    "45": {
+      "cardName": "ASALARIN ÜÇLÜSÜ",
+      "cardImageName": "3_3",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Başarı, üstün gayretlerinle gelip seni yakalayacak."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Zenginlik ve güç ikisi bir arada olursa neler olur, öğrenmek ister misin?"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Olumlu ilişkiler kurabilmen için fırsatları iyi değerlendirmen gerekiyor."
+        }
+      }
+    },
+    "46": {
+      "cardName": "ASALARIN DÖRTLÜSÜ",
+      "cardImageName": "3_4",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Vaat ettiğin ne varsa, artık karşı taraf için gerçekleştirme zamanı."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Sorunlarını halletmen için uygun bir dönem olabilir. Ya, yapman gerekenler?"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Hasatları toplama zamanı. Gösterdiğin çaba, seni nerelere taşıyacak acaba?"
+        }
+      }
+    },
+    "47": {
+      "cardName": "ASALARIN BEŞLİSİ",
+      "cardImageName": "3_5",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Tartışmaktan kaçın ve rakiplerine dikkat et."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Menfaatler çatışabilir. Hesapsız davranmamak için yorumuma dikkat et."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Aşk da önemli ama her şey bir yana, maceracı ruhun ne diyor bu işe?"
+        }
+      }
+    },
+    "48": {
+      "cardName": "ASALARIN ALTILISI",
+      "cardImageName": "3_6",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Zafer tacın, zannedersem artık elinde… Onu takmak için neyi bekliyorsun?"
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Olumlu sonuçlarını alacağın, ilişkin mi? Mahkeme mi yoksa iş mi?"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Projelerinde başarılı olman, korkmadan ilerlemene bağlı..."
+        }
+      }
+    },
+    "49": {
+      "cardName": "ASALARIN YEDİLİSİ",
+      "cardImageName": "3_7",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "İsteklerin için yoğun bir çaba ve uğraşı var. Sonuç ne olacak?"
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Güçlü kişiliğin ya da pozisyonun, ilişkini etkileyebilir ama nasıl?"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Para ve iş hayatındaki dikkatin, olumlu gelişmeler getirebilir. Peki ama nasıl?"
+        }
+      }
+    },
+    "50": {
+      "cardName": "ASALARIN SEKİZLİSİ",
+      "cardImageName": "3_8",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Yenilik zamanı başlıyor, her şeyde yeni başlangıçlar olabilir. Nasıl?"
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Gelişmeler hız kazanacak, sevinmelisin. Haydi, olumsuzlukları bitirelim."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Telaşlanma, her şey sakince eline gelecek."
+        }
+      }
+    },
+    "51": {
+      "cardName": "ASALARIN DOKUZLUSU",
+      "cardImageName": "3_9",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Zorlanmış olabilirsin, ümidini kaybetme... Kendine güvenmelisin."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Üzgün olabilirsin. Moralini bozma, olumlu gelişmeler var."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Sorumluluğun artabilir. Aile içinde ya da işte..."
+        }
+      }
+    },
+    "52": {
+      "cardName": "ASALARIN ONLUSU",
+      "cardImageName": "3_10",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Omuzlarında yük hissedebilirsin. Sorumlulukların artabilir."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Borca girmen gereken bir dönem olabilir. Daha planlı olmalısın."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "İhtiraslı durumlarla karşılaşabilirsin. Problem varsa, çözülmeli."
+        }
+      }
+    },
+    "53": {
+      "cardName": "ASALARIN ŞOVALYESİ",
+      "cardImageName": "3_11",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Hayatında sarışın, genç bir erkek olabilir ya da öyle birisin. Aşkta özel bir durum var."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "İş hayatında çekiciliğin ön plandan olabilir. Enerjik ve hareketlisin."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Projelerinde ya da aşk hayatında yüksek bir enerjiye sahipsin."
+        }
+      }
+    },
+    "54": {
+      "cardName": "ASALARIN KRALİÇESİ",
+      "cardImageName": "3_12",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Açık renkli, sarışın kumral bir kadın yaşantını etkileyebilir ya da bu kişi sensin."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Koç burcu kalitesinde birisiyle, özel şeyler yaşanabilir. Yoksa sen bir Koç musun?"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Giriştiğin bu iş, eğitim veya iş olabilir. Yaratıcılık gerektiren şeylere yönel."
+        }
+      }
+    },
+    "55": {
+      "cardName": "ASALARIN KRALI",
+      "cardImageName": "3_13",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Açık tenli, sarışın ya da kumral bir erkekle, iş ya da aşkta bir uyum söz konusu...
+Yorumuma kulak ver."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Kendini kanıtlamaya çalışan biriyle karşı karşıya olabilirsin. Ne yapman gerekir?"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Güç ve karizma senin elinde... Etkileyicisin."
+        }
+      }
+    },
+    "56": {
+      "cardName": "ADALET",
+      "cardImageName": "4_0",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Terazi burcu olabilirsin ya da bu burcun etkisindesin. Oldukça adil biri olabilirsin."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "İlişkinde belki sorunlar yaşıyorsun. Çözmek için ne yapmalısın?"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Ortada bir haksızlık olduğunu düşünebilirsin. Mahkeme yolu görünebilir..."
+        }
+      }
+    },
+    "57": {
+      "cardName": "AŞIKLAR",
+      "cardImageName": "4_1",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Romantik bir karşılaşma! Aşık olacağın birisi ile tanışma!"
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Büyük bir aşkın işareti... Bir kalbe, iki sevgi sığmaz..."
+        },
+        "2": {
+          "isFlipped": true,
+          "cardComment": "Her şeyin en iyisine sahip olmaya çalışırken, zor durumda kalabilirsin."
+        }
+      }
+    },
+    "58": {
+      "cardName": "ASILMIŞ ADAM",
+      "cardImageName": "4_2",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Büyük sırlar kartı. Askıya alınmış kararların var."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Hayatının önemli bir devresindesin. Kendini dinlemen ve yorumuma kulak vermen gerekiyor."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Önemli bir zaman dilimindesin. Kendini çok önemsediğin bir dönem..."
+        }
+      }
+    },
+    "59": {
+      "cardName": "AY",
+      "cardImageName": "4_3",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Ay burcunda ya da Venüsü’nde Yengeç olabilir. Yaşanan problem her ne ise, henüz gün ağarmamış..."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Hassas, romantik ve iyi niyetlisin ama herkes senin gibi mi?"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Hayatında belirsizlikler olabilir. Gizli düşmanlar ya da entrikalar var!"
+        }
+      }
+    },
+    "60": {
+      "cardName": "BAŞRAHİBE",
+      "cardImageName": "4_4",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Bir gizemin ve sırrın işareti! Var olan sırlar açığa çıkacak."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Maneviyatı güçlü biri olabilirsin. Bir ilişkin varsa, tensellikten kopma var."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Gizli yeteneklerini ortaya koyabileceğin bir durumdasın."
+        }
+      }
+    },
+    "61": {
+      "cardName": "BAŞRAHİP",
+      "cardImageName": "4_5",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Manevi değerleri yüksek olan birisiyle tanışma ya da platonik aşk..."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Bir ilişkin varsa ve bu ilişkide bazı kaygıların varsa..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Özgür, bağımsız, başına buyruk hareket eden birisi..."
+        }
+      }
+    },
+    "62": {
+      "cardName": "BÜYÜCÜ",
+      "cardImageName": "4_6",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Önemli bir karar noktasındasın. Akılla alınması gereken kararlar var."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Hayatında yepyeni bir dönem açılıyor. Bütün güç artık sende..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Bir işin ya da sınavın arifesindesin. Ve nasıl gideceğini bilmiyor olabilirsin..."
+        }
+      }
+    },
+    "63": {
+      "cardName": "DELİ",
+      "cardImageName": "4_7",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Hayatının çok önemli bir noktasındasın. Karar vermen gerekiyor."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Yeni bir ilişkiye başlamak üzeresin. Belki memnun olacaksın..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Ne geçmiş, ne gelecek... İlişkinde, maddi değerlerden kurtulmalısın."
+        }
+      }
+    },
+    "64": {
+      "cardName": "DENGE",
+      "cardImageName": "4_8",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Oldukça güzel bir kart! Melek gibi bir huyun var ama tek başına hareket etme!"
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Her ne hal içinde isen, bilmelisin ki mükemmel bir ahenk kuruluyor."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "İlişkileri dengeye getirecek, bir arabulucu çıkageliyor!"
+        }
+      }
+    },
+    "65": {
+      "cardName": "DÜNYA",
+      "cardImageName": "4_9",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Başarılı bir son yaşayacaksın. İlişkide en güzel son!"
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Fikirlerin ve duyguların, kalıplar içine girmemeli. Seni sınırlayan bağlardan kurtulmalısın."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Son derece akıllı ve ne istediğini bilen birisin! Doğru zamanda, doğru yerde olmalısın."
+        }
+      }
+    },
+    "66": {
+      "cardName": "GÜNEŞ",
+      "cardImageName": "4_10",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Her türlü güzel kavram bu kartta! İlişkin, son derece açık… Belki de şöhretli biri..."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Hayatında yeni bir başlangıç var. Bir proje, bir iş ya da bir bebek..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "En güzel kart sana geldi! Ruhun aydınlanıyor! Hayat enerjisi seninle..."
+        }
+      }
+    },
+    "67": {
+      "cardName": "İMPARATOR",
+      "cardImageName": "4_11",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Otoriteyi temsil eden kartı seçtin. Dünyanın efendisi gibi biriyle tanışabilirsin!"
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Maddi dünyanın efendisi olabilirsin. Ruh ile beden ilişkisi çok önemli..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Yasaları ve düzenlemeleri temsil eden kart... Merkezden gelecek bir yardıma ihtiyacın olabilir."
+        }
+      }
+    },
+    "68": {
+      "cardName": "İMPARATORİÇE",
+      "cardImageName": "4_12",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "En güzel kart! Hem maddi hem de manevi anlamda, süper doyum yaşayacaksın!"
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "İlişkin varsa, en iyi hale doğru gidiyor. Maddiyatta tatmin hali…"
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Kazanç! Kazanç! İyi bir proje ile ilgi bol verim var."
+        }
+      }
+    },
+    "69": {
+      "cardName": "KADER ÇARKI",
+      "cardImageName": "4_13",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Çözülmeye başlayan problemlerin başlangıcı. Denge yerine oturacak."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Çok güzel bir kart seçtin! Zaman her şeyin ilacıdır."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Burcunun sana getireceği zamanı iyi takip et. İstediğin şey, her ne ise…"
+        }
+      }
+    },
+    "70": {
+      "cardName": "KUVVET",
+      "cardImageName": "4_14",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Doğaüstü güçlerin olabilir. İrade gücü de olabilir..."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Var olan sorunlar, manevi duygularla düzelme aşamasına gelecek."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Tutku, heyecan ve canlılık veren saygın bir ilişki..."
+        }
+      }
+    },
+    "71": {
+      "cardName": "MÜNZEVİ",
+      "cardImageName": "4_15",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Hayatının en önemli karar aşamasında olabilirsin. Sorun varsa..."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Kendini biraz izole etmişsin. Bu halden çıkman lazım..."
+        },
+        "2": {
+          "isFlipped": true,
+          "cardComment": "Büyümek istemeyen bir ruh halindesin. Dış dünyaya açılman lazım..."
+        }
+      }
+    },
+    "72": {
+      "cardName": "ÖLÜM",
+      "cardImageName": "4_16",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Kartın adından korkma! Aslında çok iyi bir kart... Zamanı gelecek ve sen eskiyi bırakıp, yeniye geçeceksin."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "İleriye yönelik, çok özel ve güzel mesajların var. Kurtarıcı bir vedalaşma..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Yeni bir doğuşun sembolü... İşte ya da ilişkide yenilik..."
+        }
+      }
+    },
+    "73": {
+      "cardName": "SAVAŞ ARABASI",
+      "cardImageName": "4_17",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Bir hareket ve karar lazım. Karar var ama hareket yok."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Kararlı olman lazım. Zıt iki kutup arasında kalabilirsin..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "İşle ilgili ya da eğitimle ilgili bir mücadele içinde olabilirsin."
+        }
+      }
+    },
+    "74": {
+      "cardName": "ŞEYTAN",
+      "cardImageName": "4_18",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Bu kart seni korkutmasın! Şeytan gibi uyanık ve cin fikirli olmalısın."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Maddi ve cinsel ihtirasları ağır basan bir ilişkiyi sürdürüyor olabilirsin."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Zaman zaman kaygılar ve korkular olabilir. Kurulacak oyunlara dikkat etmelisin."
+        }
+      }
+    },
+    "75": {
+      "cardName": "UYANIŞ",
+      "cardImageName": "4_19",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Gözüne perde inmiş ve sen gerçekleri göremiyor olabilirsin."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Geçmiş, kaygı ve kuşkularla dolu. Zihinsel gerçekleri görmelisin..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "İyi gitmeyen bir işin ya da ilişkin olabilir. Affetme ve yeniden şans verme..."
+        }
+      }
+    },
+    "76": {
+      "cardName": "YIKILAN KULE",
+      "cardImageName": "4_20",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Gizli bir heyecan ve mutluluk olabilir."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Şimdiye kadar olmayan isteklerin, daha güzeli olacağı için beklemede..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Dikkatli olmalısın! Bu, önüne çıkabilecek kişilere karşı bir uyarı..."
+        }
+      }
+    },
+    "77": {
+      "cardName": "YILDIZ",
+      "cardImageName": "4_21",
+      "cardDetails": {
+        "0": {
+          "isFlipped": false,
+          "cardComment": "Umut veren her şey… Sönmüş olan umutların üzerine öyle bir yıldız parlayacak ki, dünyan değişecek."
+        },
+        "1": {
+          "isFlipped": false,
+          "cardComment": "Sezgilerinin doğruluğuna inanabilirsin. Hedefine doğru yaklaşmaktasın..."
+        },
+        "2": {
+          "isFlipped": false,
+          "cardComment": "Karanlık olan her neyse, aydınlatacak olan yıldız ortaya çıktı!"
+        }
+      }
+    }
+  }
+}
