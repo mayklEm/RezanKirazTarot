@@ -1,7 +1,9 @@
 package done.rezankiraztarot.app;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -42,6 +44,18 @@ public class AllCardsActivity extends Activity implements View.OnClickListener {
         }
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.all_cards_activity);
+
+        // show dialog Make the wish
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage(R.string.make_wish)
+                .setCancelable(false)
+                .setPositiveButton(R.string.remember, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        //do things
+                    }
+                });
+        AlertDialog alert = builder.create();
+        alert.show();
 
         // initialise webService
         webService = new WebService(this);

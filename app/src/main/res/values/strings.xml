@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">RezanKirazTarot v.1</string>
 
+
+    <string name="make_wish">Make a wish lorem ipsum lorem ipsum lorem ipsum lorem ipsum</string>
+    <string name="remember">I kept</string>
+
     <!--video and call services-->
     <string name="video_title">Watch the video</string>
     <string name="video_purchase">Click yes to purchase and watch the video for this card</string>
