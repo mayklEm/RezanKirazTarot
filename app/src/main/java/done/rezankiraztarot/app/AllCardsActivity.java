@@ -264,7 +264,7 @@ public class AllCardsActivity extends Activity implements View.OnClickListener {
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    Intent intent = new Intent(AllCardsActivity.this, TabsActivity.class);
+                    Intent intent = new Intent(AllCardsActivity.this, DetailActivity.class);
                     intent.putExtra("categoryID", card.getCategoryID());
                     intent.putExtra("cardID", card.getCardID());
                     intent.putExtra("cardName", card.getName());

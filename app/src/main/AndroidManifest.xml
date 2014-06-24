@@ -41,6 +41,11 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
+            android:name="done.rezankiraztarot.app.DetailActivity"
+            android:label="Detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
             android:name="done.rezankiraztarot.app.CallActivity"
             android:label="Call"
             android:screenOrientation="portrait" >
