@@ -1,1 +1,6 @@
 /build
+/src/main/res/drawable-hdpi
+/src/main/res/drawable-mdpi
+/src/main/res/drawable-xhdpi
+/src/main/res/raw
+/libs
