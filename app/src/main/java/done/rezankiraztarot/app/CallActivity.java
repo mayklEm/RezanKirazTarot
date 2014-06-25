@@ -23,7 +23,7 @@ import com.twilio.client.Twilio;
 public class CallActivity extends Activity implements View.OnClickListener {
     private MonkeyPhone phone;
     Button dialButton, hangupButton;
-    ImageView online, offline;
+    ImageView statusIcon;
     PowerManager.WakeLock wakeLock;
     WebService webService;
     String userId;
@@ -46,8 +46,8 @@ public class CallActivity extends Activity implements View.OnClickListener {
         dialButton = (Button) findViewById(R.id.button_dial);
         hangupButton = (Button) findViewById(R.id.button_hangup);
 
-        online = (ImageView) findViewById(R.id.online);
-        offline = (ImageView) findViewById(R.id.offline);
+
+        statusIcon = (ImageView) findViewById(R.id.status_icon);
 
         if(checkRezanAvailability(userId)) {
             dialButton.setOnClickListener(this);
@@ -111,11 +111,11 @@ public class CallActivity extends Activity implements View.OnClickListener {
         boolean status = webService.isRezanAvailable(userId);
 
         if (status) {
-            online.setVisibility(View.VISIBLE);
+            statusIcon.setImageResource(R.drawable.online);
             return true;
         }
         else {
-            offline.setVisibility(View.VISIBLE);
+            statusIcon.setImageResource(R.drawable.offline);
             return false;
         }
     }

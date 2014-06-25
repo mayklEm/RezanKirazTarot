@@ -1,67 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
     android:gravity="center_horizontal"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:padding="50dp">
 
-    <Button
-        android:id="@+id/button_hangup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/reklam_alani"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/aramayi_bitir"
-        android:visibility="invisible" />
-
-    <Button
-        android:id="@+id/button_dial"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/reklam_alani"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/arama_yap"
-        android:visibility="visible" />
-
-    <ImageView
-        android:id="@+id/reklam_alani"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:src="@drawable/reklam_alani" />
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Call to Rezan"
+            android:layout_marginBottom="20dp"
+            android:textColor="#ffffd979"/>
 
-    <ImageView
-        android:id="@+id/arama_ekrani"
-        android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/buy_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HAK SATIN AL"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="@drawable/hak_satin_al"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/status_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:src="@drawable/online" />
+            <TextView
+                android:id="@+id/status_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="loremIpsum"
+                android:gravity="right"
+                android:layout_marginRight="40dp"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/reklam_alani"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="100dp"
-        android:src="@drawable/arama_ekrani" />
+        android:layout_gravity="bottom">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <Button
+                android:id="@+id/button_hangup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/aramayi_bitir"/>
+            <Button
+                android:id="@+id/button_dial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/arama_yap"
+                android:visibility="visible" />
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
 
-    <ImageView
-        android:id="@+id/online"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/offline"
-        android:layout_toLeftOf="@+id/offline"
-        android:layout_marginRight="5dp"
-        android:visibility="invisible"
-        android:src="@drawable/online" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Number of calls:"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:textColor="#FFFFFF"
+                android:text="0"/>
+        </LinearLayout>
 
-    <ImageView
-        android:id="@+id/offline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/arama_ekrani"
-        android:layout_marginRight="100dp"
-        android:layout_marginTop="53dp"
-        android:visibility="invisible"
-        android:src="@drawable/offline" />
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:textSize="25sp"
+            android:text="Back"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

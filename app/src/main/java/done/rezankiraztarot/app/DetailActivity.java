@@ -40,6 +40,7 @@ public class DetailActivity extends Activity implements Animation.AnimationListe
         comment = intent.getStringExtra("comment");
         isFlipped = intent.getBooleanExtra("isFlipped", false);
 
+
         bigImage = (ImageView) findViewById(R.id.big_image);
         bigImage.setImageResource(imageID);
         if (isFlipped) {
@@ -70,6 +71,16 @@ public class DetailActivity extends Activity implements Animation.AnimationListe
         // set animation listener
         animZoomOut.setAnimationListener(this);
         bigImage.startAnimation(animZoomOut);
+
+        ImageView callImage = (ImageView) findViewById(R.id.call_rezan_image);
+
+        callImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(DetailActivity.this, CallActivity.class);
+                startActivity(i);
+            }
+        });
     }
 
     @Override
