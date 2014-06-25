@@ -31,7 +31,6 @@ import java.net.URLConnection;
  */
 public class VideoActivity extends Activity {
     String file_url;
-    ProgressDialogFragment pDialog;
     VideoView videoView;
     WebService webService;
 
@@ -54,7 +53,6 @@ public class VideoActivity extends Activity {
             file_url = webService.getVideoUrl();
         }
         // initialization
-        pDialog = new ProgressDialogFragment();
         videoView = (VideoView) findViewById(R.id.video_view_play);
 
 

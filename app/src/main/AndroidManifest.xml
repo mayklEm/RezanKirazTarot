@@ -31,11 +31,6 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="done.rezankiraztarot.app.TabsActivity"
-            android:label="Rezan Kiraz Tarot v.1"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
             android:name="done.rezankiraztarot.app.VideoActivity"
             android:label="Video"
             android:screenOrientation="portrait" >

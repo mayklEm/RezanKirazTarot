@@ -14,12 +14,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp">
         <TextView
+            android:id="@+id/call_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
+            android:textSize="20sp"
             android:text="Rezan Kiraz ile Canlı Görüşmek İçin"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="15dp"
             android:textColor="#ffffd979"/>
 
         <Button

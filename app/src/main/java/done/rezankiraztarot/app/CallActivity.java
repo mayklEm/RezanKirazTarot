@@ -46,9 +46,11 @@ public class CallActivity extends Activity implements View.OnClickListener {
         numOfCallsView = (TextView) findViewById(R.id.num_of_calls);
         statusMessage = (TextView) findViewById(R.id.status_message);
 
+
         Typeface typeFaceFreeform= Typeface.createFromAsset(this.getAssets(), "fonts/freeform-710-bt.ttf");
         Button buyCall = (Button) findViewById(R.id.buy_call);
         buyCall.setTypeface(typeFaceFreeform);
+        ((TextView) findViewById(R.id.call_title)).setTypeface(typeFaceFreeform);
 
         webService = new WebService(this);
         Log.d("test", "check call service: " + webService.checkCallService());
