@@ -11,12 +11,13 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="40dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Call to Rezan"
+            android:gravity="center"
+            android:text="Rezan Kiraz ile Canlı Görüşmek İçin"
             android:layout_marginBottom="20dp"
             android:textColor="#ffffd979"/>
 
@@ -26,6 +27,7 @@
             android:layout_height="wrap_content"
             android:text="HAK SATIN AL"
             android:textColor="#FFFFFF"
+            android:gravity="center"
             android:textSize="20sp"
             android:background="@drawable/hak_satin_al"/>
 
@@ -87,7 +89,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Number of calls:"
+                android:text="Var olan arama hakkınız:"
                 android:textColor="#FFFFFF"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -104,7 +106,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|bottom"
             android:textSize="25sp"
-            android:text="Back"
+            android:text="Geri"
             android:textColor="#FFFFFF"/>
     </LinearLayout>
 
