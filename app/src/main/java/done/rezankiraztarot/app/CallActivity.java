@@ -13,9 +13,12 @@ import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.twilio.client.Connection;
 import com.twilio.client.Twilio;
+
+import org.w3c.dom.Text;
 
 /**
  * Created by Peter on 16.6.2014.
@@ -23,6 +26,7 @@ import com.twilio.client.Twilio;
 public class CallActivity extends Activity implements View.OnClickListener {
     private MonkeyPhone phone;
     Button dialButton, hangupButton;
+    TextView backButton;
     ImageView statusIcon;
     PowerManager.WakeLock wakeLock;
     WebService webService;
@@ -45,18 +49,23 @@ public class CallActivity extends Activity implements View.OnClickListener {
 
         dialButton = (Button) findViewById(R.id.button_dial);
         hangupButton = (Button) findViewById(R.id.button_hangup);
+        backButton = (TextView) findViewById(R.id.back_button);
 
 
         statusIcon = (ImageView) findViewById(R.id.status_icon);
+        checkRezanAvailability(userId);
 
         if(checkRezanAvailability(userId)) {
             dialButton.setOnClickListener(this);
             hangupButton.setOnClickListener(this);
         }
 
-
-
-        checkRezanAvailability(userId);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
         PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
         wakeLock = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK,"wake tag");
@@ -66,13 +75,9 @@ public class CallActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.button_dial){
-
-
             if(phone!=null){
                 dialButton.setVisibility(View.GONE);
                 hangupButton.setVisibility(View.VISIBLE);
-
-
                 phone.connect();
             }
         }
@@ -109,7 +114,6 @@ public class CallActivity extends Activity implements View.OnClickListener {
 
     public boolean checkRezanAvailability(String userId) {
         boolean status = webService.isRezanAvailable(userId);
-
         if (status) {
             statusIcon.setImageResource(R.drawable.online);
             return true;
