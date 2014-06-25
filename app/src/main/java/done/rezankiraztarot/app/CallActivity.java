@@ -63,10 +63,8 @@ public class CallActivity extends Activity implements View.OnClickListener {
 
         statusIcon = (ImageView) findViewById(R.id.status_icon);
 
-        if(checkRezanAvailability(userId)) {
-            dialButton.setOnClickListener(this);
-            hangupButton.setOnClickListener(this);
-        }
+        dialButton.setOnClickListener(this);
+        hangupButton.setOnClickListener(this);
 
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,12 +83,14 @@ public class CallActivity extends Activity implements View.OnClickListener {
         super.onStart();
         //check call status each time when this activity is opened
         //if you make purchase and return back you get updated status
-        checkRezanAvailability(userId);
+        checkRezanAvailability();
+
         if (webService.checkCallService()) {
+            numOfCallsView.setText(webService.getNumOfCalls());
+            if (Integer.parseInt(webService.getNumOfCalls()) >=1) {
+                dialButton.setVisibility(View.VISIBLE);
+            }
         }
-
-        numOfCallsView.setText(webService.getNumOfCalls());
-
     }
 
     @Override
@@ -133,7 +133,7 @@ public class CallActivity extends Activity implements View.OnClickListener {
         wakeLock.release();
     }
 
-    public boolean checkRezanAvailability(String userId) {
+    public boolean checkRezanAvailability() {
         boolean status = webService.isRezanAvailable();
         if (status) {
             statusIcon.setImageResource(R.drawable.online);

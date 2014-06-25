@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">RezanKirazTarot v.1</string>
-    <string name="make_wish">Make a wish lorem ipsum lorem ipsum lorem ipsum lorem ipsum</string>
+    <string name="make_wish">Rezan Kiraz: Sevgili Arkadaşım, dileğini ttut ve kartını seç. Yorumunu benden dinlemek için Rezan Kıraz\'ı Ara\'ya tıklamayı unutma!</string>
     <string name="remember">I kept</string>
 
     <!-- video and call services -->

@@ -5,7 +5,8 @@
     android:background="@drawable/bg"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="50dp">
+    android:padding="50dp"
+    android:visibility="visible">
 
     <LinearLayout
         android:orientation="vertical"
@@ -71,14 +72,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:background="@drawable/aramayi_bitir"/>
+                android:background="@drawable/aramayi_bitir"
+                android:visibility="invisible" />
             <Button
                 android:id="@+id/button_dial"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:background="@drawable/arama_yap"
-                android:visibility="visible" />
+                android:visibility="invisible" />
         </RelativeLayout>
         <LinearLayout
             android:orientation="horizontal"

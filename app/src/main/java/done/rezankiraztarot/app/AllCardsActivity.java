@@ -11,12 +11,15 @@ import android.os.Handler;
 import android.os.StrictMode;
 import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
+
 import java.util.UUID;
 
 /**
@@ -46,16 +49,8 @@ public class AllCardsActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.all_cards_activity);
 
         // show dialog Make the wish
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage(R.string.make_wish)
-                .setCancelable(false)
-                .setPositiveButton(R.string.remember, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        //do things
-                    }
-                });
-        AlertDialog alert = builder.create();
-        alert.show();
+        runWelcomeDialog();
+
 
         // initialise webService
         webService = new WebService(this);
@@ -230,6 +225,33 @@ public class AllCardsActivity extends Activity implements View.OnClickListener {
         getWindowManager().getDefaultDisplay().getMetrics(metrics);
 
         return (size * metrics.densityDpi) / DisplayMetrics.DENSITY_DEFAULT;
+    }
+
+    public void runWelcomeDialog() {
+        TextView title = new TextView(this);
+        title.setText("Bir Dilek Tut");
+        title.setPadding(10, 10, 10, 10);
+        title.setGravity(Gravity.CENTER);
+        // title.setTextColor(getResources().getColor(R.color.greenBG));
+        title.setTextSize(23);
+
+        TextView msg = new TextView(this);
+        msg.setText(R.string.make_wish);
+        msg.setPadding(10, 10, 10, 10);
+        msg.setGravity(Gravity.CENTER);
+        msg.setTextSize(18);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setView(msg)
+            .setCancelable(false)
+            .setPositiveButton("Tuttum", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        //do things
+                    }
+                })
+            .setCustomTitle(title);
+        AlertDialog alert = builder.create();
+        alert.show();
     }
 
 
