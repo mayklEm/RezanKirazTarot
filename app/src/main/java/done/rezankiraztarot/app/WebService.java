@@ -41,7 +41,6 @@ import java.util.List;
  */
 public class WebService {
     final String SERVER_URL = "http://81.21.162.78:8282/TEST_RezanKirazCanliTarotWS/WebService";
-    SharedPreferences sharedPreferences;
     Context context;
     SharedPreferences sharedpreferences;
     String uid;
@@ -81,6 +80,7 @@ public class WebService {
         * */
         JSONObject jsonParameter = new JSONObject();
         try {
+            // always insert method ID t:
             jsonParameter.put("t", methodId);
 
             // decide which type of service should be called
@@ -104,6 +104,9 @@ public class WebService {
                     jsonParameter.put("ctid", arg1);
                     jsonParameter.put("cid", arg2);
                     jsonParameter.put("coid", arg3);
+                    break;
+                case 15:
+                    jsonParameter.put("uid", arg0);
                     break;
             }
         } catch (JSONException e) {
@@ -175,6 +178,17 @@ public class WebService {
 
     public String getVideoUrl() {
         JSONObject response = callRequest(5, uid, ctid, cid, coid);
+        String url = null;
+        try {
+            url = response.getJSONObject("video").getString("vu");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return url;
+    }
+
+    public String getPromoVideoUrl() {
+        JSONObject response = callRequest(15, uid, "", "", "");
         String url = null;
         try {
             url = response.getJSONObject("video").getString("vu");

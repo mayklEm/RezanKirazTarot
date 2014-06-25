@@ -3,6 +3,7 @@ package done.rezankiraztarot.app;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.net.Uri;
@@ -33,7 +34,9 @@ public class VideoActivity extends Activity {
     ProgressDialogFragment pDialog;
     VideoView videoView;
     WebService webService;
-    Context context;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,14 +44,20 @@ public class VideoActivity extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.video_activity);
 
+        webService = new WebService(this);
+        Intent intent = getIntent();
+        boolean isPromo = intent.getBooleanExtra("isPromo", false);
+        if (isPromo){
+            file_url = webService.getPromoVideoUrl();
+        }
+        else {
+            file_url = webService.getVideoUrl();
+        }
         // initialization
-        context = this;
         pDialog = new ProgressDialogFragment();
         videoView = (VideoView) findViewById(R.id.video_view_play);
 
-        // get video url from webService
-        webService = new WebService(context);
-        file_url = webService.getVideoUrl();
+
 
         MediaController mc = new MediaController(this);
         videoView.setMediaController(mc);

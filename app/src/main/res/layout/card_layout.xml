@@ -6,15 +6,6 @@
     android:padding="20dp"
     android:background="@drawable/bg">
 
-
-
-
-
-
-
-
-
-
     <RelativeLayout
         android:id="@+id/bottom_layer"
         android:layout_width="match_parent"
@@ -38,9 +29,9 @@
                     android:id="@+id/title1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="LOREM IPSUM"
+                    android:text="Rezan Kiraz'ı Ara"
                     android:layout_gravity="center_horizontal"
-                    android:textColor="#fff" />
+                    android:textColor="#ffffd979" />
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_gravity="center_horizontal"
@@ -55,6 +46,7 @@
                         android:src="@drawable/canli_gorus_cerceve">
                     </ImageView>
                     <ImageButton
+                        android:id="@+id/promo_video"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
@@ -117,7 +109,7 @@
                             android:gravity="center"
                             android:layout_marginBottom="10dp"
                             android:textColor="#ff532d93"
-                            android:text="Click to watch the video"
+                            android:text="Kartın yorumunu izlemek için tıklayınız"
                             android:textSize="15sp" />
                         <TextView
                             android:id="@+id/text_pick_card"
@@ -126,7 +118,7 @@
                             android:layout_gravity="center_vertical"
                             android:gravity="center"
                             android:textColor="#ffffffff"
-                            android:text="Pick another card"
+                            android:text="Yeniden Kart Seç"
                             android:textSize="15sp" />
 
                         </LinearLayout>
