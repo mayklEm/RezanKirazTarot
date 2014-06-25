@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.PowerManager;
@@ -41,6 +42,9 @@ public class CallActivity extends Activity implements View.OnClickListener {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.call_activity);
 
+        Typeface typeFaceFreeform= Typeface.createFromAsset(this.getAssets(), "fonts/freeform-710-bt.ttf");
+        Button buyCall = (Button) findViewById(R.id.buy_call);
+        buyCall.setTypeface(typeFaceFreeform);
 
         webService = new WebService(this);
         // get user ID from SharedPreferences (required for webservice calls)

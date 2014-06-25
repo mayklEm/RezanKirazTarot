@@ -61,10 +61,13 @@ public class DetailActivity extends Activity implements Animation.AnimationListe
         TextView textViewCardComment = (TextView)findViewById(R.id.textViewDescription);
         TextView textViewPickCard = (TextView)findViewById(R.id.text_pick_card);
         TextView watchVideo = (TextView)findViewById(R.id.text_video);
+        TextView detailTitle = (TextView) findViewById(R.id.detail_title);
 
-        Typeface typeFace= Typeface.createFromAsset(this.getAssets(), "fonts/Redressed.ttf");
-        textViewCardName.setTypeface(typeFace);
-        textViewCardComment.setTypeface(typeFace);
+        Typeface typeFaceRedressed= Typeface.createFromAsset(this.getAssets(), "fonts/Redressed.ttf");
+        Typeface typeFaceFreeform= Typeface.createFromAsset(this.getAssets(), "fonts/freeform-710-bt.ttf");
+        textViewCardName.setTypeface(typeFaceRedressed);
+        textViewCardComment.setTypeface(typeFaceRedressed);
+        detailTitle.setTypeface(typeFaceFreeform);
 
         textViewCardName.setText(cardName);
         textViewCardComment.setText(comment);
