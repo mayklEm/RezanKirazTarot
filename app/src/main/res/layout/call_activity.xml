@@ -93,6 +93,7 @@
                 android:text="Var olan arama hakkınız:"
                 android:textColor="#FFFFFF"/>
             <TextView
+                android:id="@+id/num_of_calls"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"

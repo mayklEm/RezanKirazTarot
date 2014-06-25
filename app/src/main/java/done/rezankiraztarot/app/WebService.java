@@ -76,6 +76,8 @@ public class WebService {
         * 1 - get user ID
         * 3 - check Rezan's availability
         * 5 - get video
+        * 6 - get capability token and call service information
+        * 7 - check call service - if I can make a call
         * 10 - check if video is purchased
         * */
         JSONObject jsonParameter = new JSONObject();
@@ -99,6 +101,11 @@ public class WebService {
                     jsonParameter.put("cid", arg2);
                     jsonParameter.put("coid", arg3);
                     break;
+                case 6:
+                    jsonParameter.put("uid", arg0);
+                    break;
+                case 7:
+                    jsonParameter.put("uid", arg0);
                 case 10:
                     jsonParameter.put("uid", arg0);
                     jsonParameter.put("ctid", arg1);
@@ -160,7 +167,7 @@ public class WebService {
         return result;
     }
 
-    public boolean isRezanAvailable(String uid) {
+    public boolean isRezanAvailable() {
         JSONObject response = callRequest(3, uid, "", "", "");
         String status = null;
         try {
@@ -201,7 +208,6 @@ public class WebService {
     public boolean videoIsPurchased() {
         JSONObject response = callRequest(10, uid, ctid, cid, coid);
         String status = null;
-        Log.d("test","WebService.java.status: "+status);
         try {
             status = response.getString("vp" );
         } catch (JSONException e) {
@@ -213,5 +219,33 @@ public class WebService {
         else {
             return false;
         }
+    }
+
+    public boolean checkCallService() {
+        JSONObject response = callRequest(7, uid, "", "", "");
+        String rc = null;
+        try {
+            rc = response.getString("rc");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        Log.d("test", "rc:"+rc);
+        if (rc.equals("0")) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    public String getNumOfCalls() {
+        JSONObject response = callRequest(6, uid, "", "", "");
+        String numOfCalls = null;
+        try {
+            numOfCalls = response.getJSONObject("user").getString("noc");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return numOfCalls;
     }
 }

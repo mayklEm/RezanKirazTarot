@@ -32,6 +32,8 @@ public class CallActivity extends Activity implements View.OnClickListener {
     PowerManager.WakeLock wakeLock;
     WebService webService;
     String userId;
+    TextView numOfCallsView;
+    TextView statusMessage;
 
 
 
@@ -41,12 +43,15 @@ public class CallActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.call_activity);
+        numOfCallsView = (TextView) findViewById(R.id.num_of_calls);
+        statusMessage = (TextView) findViewById(R.id.status_message);
 
         Typeface typeFaceFreeform= Typeface.createFromAsset(this.getAssets(), "fonts/freeform-710-bt.ttf");
         Button buyCall = (Button) findViewById(R.id.buy_call);
         buyCall.setTypeface(typeFaceFreeform);
 
         webService = new WebService(this);
+        Log.d("test", "check call service: " + webService.checkCallService());
         // get user ID from SharedPreferences (required for webservice calls)
         SharedPreferences sharedpreferences = getSharedPreferences("webservice_preferences", Context.MODE_PRIVATE);
         userId = sharedpreferences.getString("uid", null);
@@ -57,7 +62,6 @@ public class CallActivity extends Activity implements View.OnClickListener {
 
 
         statusIcon = (ImageView) findViewById(R.id.status_icon);
-        checkRezanAvailability(userId);
 
         if(checkRezanAvailability(userId)) {
             dialButton.setOnClickListener(this);
@@ -74,6 +78,19 @@ public class CallActivity extends Activity implements View.OnClickListener {
         PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
         wakeLock = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK,"wake tag");
         wakeLock.acquire();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        //check call status each time when this activity is opened
+        //if you make purchase and return back you get updated status
+        checkRezanAvailability(userId);
+        if (webService.checkCallService()) {
+        }
+
+        numOfCallsView.setText(webService.getNumOfCalls());
+
     }
 
     @Override
@@ -117,13 +134,16 @@ public class CallActivity extends Activity implements View.OnClickListener {
     }
 
     public boolean checkRezanAvailability(String userId) {
-        boolean status = webService.isRezanAvailable(userId);
+        boolean status = webService.isRezanAvailable();
         if (status) {
             statusIcon.setImageResource(R.drawable.online);
+            statusMessage.setText("Müsaitim");
             return true;
         }
         else {
             statusIcon.setImageResource(R.drawable.offline);
+            statusMessage.setText("Offline");
+
             return false;
         }
     }
