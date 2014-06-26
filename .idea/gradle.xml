@@ -8,7 +8,7 @@
         <option name="modules">
           <set>
             <option value="D:\DoneLabs\RezanKirazTarot" />
-            <option value="D:\DoneLabs\RezanKirazTarot\app" />
+            <option value="D:\DoneLabs\RezanKirazTarot\rezankiraztarot" />
           </set>
         </option>
       </GradleProjectSettings>
